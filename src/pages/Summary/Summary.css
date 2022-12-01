@@ -1,0 +1,13 @@
+.summary-container{
+    width: 80%;
+    margin: 1rem auto;
+    border: 1px solid tomato;
+    padding: 1rem;
+}
+
+.summary-title{
+    text-align: center;
+    color: green;
+    font-weight: 600;
+    font-size: 20px;
+}

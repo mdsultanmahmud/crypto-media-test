@@ -11,5 +11,27 @@
 }
 .movie-name{
     font-size: 18px;
-    margin: 0;
+    margin: 5px 0;
+    color: green;
+    font: bold;
+}
+.details-btn{
+    padding: 8px 14px;
+    background-color: black;
+    color: white;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: all ease-in-out .3s;
+    border: none;
+    outline: none;
+    display: block;
+    margin: 5px auto;
+}
+
+.details-btn:hover{
+    cursor: pointer;
+    background-color: tomato;
+    color: black;
 }
