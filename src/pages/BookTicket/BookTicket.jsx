@@ -3,7 +3,7 @@ import React from 'react';
 const BookTicket = ({ bookTicket, setBookTicket }) => {
     const {name, language, url, status } = bookTicket
     let bookingList =  JSON.parse(localStorage.getItem('MovieBookingList'))
-    if(bookingList.length > 0){
+    if(bookingList?.length > 0){
         bookingList = JSON.parse(localStorage.getItem('MovieBookingList'))
     }else{
         bookingList = []
